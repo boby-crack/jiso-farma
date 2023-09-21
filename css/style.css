@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    margin-right: 8em;
+}
+
+.navbar-nav .nav-item .active {
+    background-color: #0bda73;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 8em;
+}
+
+#tentang {
+    background-color: #f9f9f9;
+}
+
+#tentang h3 {
+    font-weight: 600;
+}
+
+.icon-vaksin {
+    position: relative;
+}
+
+.pemisah {
+    border-right: 2px solid #e3e3e3;
+}
+
+#wwd {
+    margin-top: 100px;
+}
+
+#wwd h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#wwd h3 {
+    margin-top: 20px;
+}
+
+#news h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#news .img-news {
+    position: relative;
+}
+
+#news .budge {
+    display: block;
+    position: absolute !important;
+}
