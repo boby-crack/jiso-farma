@@ -54,7 +54,27 @@ body {
     position: relative;
 }
 
+#news .img-news span {
+    top: 20px;
+    left: 30px;
+    width: 63px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    background-color: #0BDA73;
+}
+
 #news .budge {
     display: block;
     position: absolute !important;
+}
+
+#news .budge p {
+    padding-top: 20px;
+}
+
+#news .budge h5 {
+    color: #7B7B7B;
+    font-size: medium;
 }
