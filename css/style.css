@@ -45,9 +45,35 @@ body {
     margin-top: 20px;
 }
 
+#products {
+     background-color: #f9f9f9;
+}
+
+#products .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#products h1 {
+    font-weight: 600;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+#products .img-prdk {
+    position: relative;
+}
+
+#products .card-body {
+    background-color: white;
+}
+
+
 #news h1 {
     font-weight: 600;
     font-size: 50px;
+    padding-top: 20px;
+    margin-top: 10pxs;
 }
 
 #news .img-news {
