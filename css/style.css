@@ -105,3 +105,23 @@ body {
     padding-left: 110px;
     
 }
+
+/* About */
+#footer-about {
+    margin-top: 150px;
+    background-color: #f9f9f9;
+}
+
+#footer-about .img-footer {
+    position: relative;
+    padding: 30px;
+}
+
+#footer-about .img-footer p {
+    padding-top: 20px;
+}
+
+#footer-about .budge p {
+    padding-left: 110px;
+    
+}
