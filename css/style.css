@@ -13,7 +13,8 @@ body {
 }
 
 .navbar-nav .nav-item {
-    margin-right: 8em;
+    margin-right: 4em;
+
 }
 
 #tentang {
@@ -45,29 +46,9 @@ body {
     margin-top: 20px;
 }
 
-#products {
-     background-color: #f9f9f9;
+#news {
+    margin-top: 100px;
 }
-
-#products .row {
-    display: flex;
-    justify-content: space-between;
-}
-
-#products h1 {
-    font-weight: 600;
-    font-size: 50px;
-    padding-top: 20px;
-}
-
-#products .img-prdk {
-    position: relative;
-}
-
-#products .card-body {
-    background-color: white;
-}
-
 
 #news h1 {
     font-weight: 600;
@@ -98,9 +79,29 @@ body {
 
 #news .budge p {
     padding-top: 20px;
+    text-align: left;
 }
 
 #news .budge h5 {
     color: #7B7B7B;
     font-size: medium;
+}
+
+#footer {
+    margin-top: 250px;
+    background-color: #f9f9f9;
+}
+
+#footer .img-footer {
+    position: relative;
+    padding: 30px;
+}
+
+#footer .img-footer p {
+    padding-top: 20px;
+}
+
+#footer .budge p {
+    padding-left: 110px;
+    
 }
