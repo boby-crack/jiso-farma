@@ -107,6 +107,10 @@ body {
 }
 
 /* About */
+#about {
+    margin-top: 100px;
+}
+
 #footer-about {
     margin-top: 150px;
     background-color: #f9f9f9;
@@ -122,6 +126,35 @@ body {
 }
 
 #footer-about .budge p {
+    padding-left: 110px;
+    
+}
+
+/* product */
+#product .product {
+    margin-top: 100px;
+}
+
+.pemisah {
+    border-right: 2px solid #e3e3e3;
+    padding: 10px;
+}
+
+#footer-product {
+    margin-top: 100px;
+    background-color: #f9f9f9;
+}
+
+#footer-product .img-footer {
+    position: relative;
+    padding: 30px;
+}
+
+#footer-product .img-footer p {
+    padding-top: 20px;
+}
+
+#footer-product .budge p {
     padding-left: 110px;
     
 }
