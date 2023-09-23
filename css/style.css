@@ -1,19 +1,36 @@
 body {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
+/* #navbarNav a{
+    transition: .1s;
+}
+
+#navbarNav a:hover,
+#navbarNav a.active  {
+    color: #0bda73;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px; 
+} */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
 .navbar-brand {
     margin-right: 8em;
 }
 
-.navbar-nav .nav-item .active {
+.navbar-nav .nav-item a.active {
     background-color: #0bda73;
     border-radius: 20px;
     padding: 5px 20px 5px 20px;
 }
 
 .navbar-nav .nav-item {
-    margin-right: 4em;
+    margin-right: 7em;
 
 }
 
@@ -111,6 +128,28 @@ body {
     margin-top: 100px;
 }
 
+#ceo {
+    background-image: url("../assets/peneliti2.png");
+    background-size: cover;    
+    height: 260px;
+    width: 100%;
+}
+
+.ceo1 {
+    display: flex;
+    justify-content: center;
+    padding: 55px;
+}
+
+.ceo1 img {
+    height: 120px;
+    width: 500px;
+}
+
+/* #ceo .ceo1{
+    max-width: 100px;
+} */
+
 #footer-about {
     margin-top: 150px;
     background-color: #f9f9f9;
@@ -131,6 +170,16 @@ body {
 }
 
 /* product */
+
+#product {
+    background-image: url() ;
+}
+
+.home h5 {
+    font-size: large;
+    color: #7B7B7B;
+}
+
 #product .product {
     margin-top: 100px;
 }
